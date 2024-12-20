@@ -1,0 +1,50 @@
+.
+├── README.md
+├── components.json
+├── index.html
+├── jsconfig.json
+├── manifest.json
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── public
+│   └── logo.svg
+├── server.cjs
+├── src
+│   ├── App.jsx
+│   ├── components
+│   │   ├── app-sidebar.jsx
+│   │   ├── mode-toggle.jsx
+│   │   ├── theme-provider.jsx
+│   │   └── ui
+│   │       ├── breadcrumb.jsx
+│   │       ├── button.jsx
+│   │       ├── dropdown-menu.jsx
+│   │       ├── input.jsx
+│   │       ├── separator.jsx
+│   │       ├── sheet.jsx
+│   │       ├── sidebar.jsx
+│   │       ├── skeleton.jsx
+│   │       └── tooltip.jsx
+│   ├── extension
+│   │   ├── background.js
+│   │   ├── content.js
+│   │   └── images
+│   │       ├── icon128.png
+│   │       ├── icon16.png
+│   │       ├── icon32.png
+│   │       └── icon48.png
+│   ├── hooks
+│   │   ├── use-mobile.jsx
+│   │   └── use-websocket.jsx
+│   ├── index.css
+│   ├── lib
+│   │   ├── utils
+│   │   │   └── normalizer.js
+│   │   └── utils.js
+│   └── main.jsx
+├── tailwind.config.js
+├── tree.txt
+└── vite.config.js
+
+10 directories, 38 files

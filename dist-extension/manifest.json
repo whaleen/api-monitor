@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "API Monitor",
+  "author": "@nothingdao",
+  "description": "Monitor API requests and jeet on the manlets",
+  "icons": {
+    "16": "src/extension/images/icon16.png",
+    "32": "src/extension/images/icon32.png",
+    "48": "src/extension/images/icon48.png",
+    "128": "src/extension/images/icon128.png"
+  },
+  "version": "0.0.1",
+  "permissions": [
+    "webRequest",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  }
+}
