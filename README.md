@@ -1,10 +1,12 @@
 # API Monitor
 
-A Chrome extension for capturing and monitoring API calls, with a development web interface. We are monitoring all network requests and responses w/ the chrome extension and running a server and then connecting to that server to display the data in a web app. These are the three main working parts of this project. You need to run the browser extension, the server, and the web app all together.
+A three-component system consisting of:
 
-Please check the `extension` code to see how we are capturing the network requests and responses. The `server` code is where we are storing the data and serving it to the web app. The `web` code is where we are displaying the data.
+Chrome extension that captures network requests/responses
+Server for data storage and API endpoints
+Web interface for data visualization and monitoring
 
-Todo: make the above descriptive information more concise.
+All components must run simultaneously. See respective directories (extension, server, web) for implementation details.
 
 ## Setup
 
